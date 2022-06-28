@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bayteq.SnakesAndLadders.Application", "Bayteq.SnakesAndLadders.Application\Bayteq.SnakesAndLadders.Application.csproj", "{730E2311-ABB3-488C-8127-4859F7FB78DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bayteq.SnakesAndLadders.ConsoleClient", "Bayteq.SnakesAndLadders.ConsoleClient\Bayteq.SnakesAndLadders.ConsoleClient.csproj", "{C5C7C2C0-58EE-42A3-BC9C-504E3FABB190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bayteq.SnakesAndLadders.Domain", "Bayteq.SnakesAndLadders.Domain\Bayteq.SnakesAndLadders.Domain.csproj", "{33E35456-0F79-4CDA-8AC3-02EBB8D3967F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bayteq.SnakesAndLaders.Infrastructure", "Bayteq.SnakesAndLaders.Infrastructure\Bayteq.SnakesAndLaders.Infrastructure.csproj", "{444D9799-E56E-4A4C-B750-232E596FBEEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BE9EE355-EDE9-4800-8642-8ED610116B8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bayteq.SnakesAndLadders.Tests", "Bayteq.SnakesAndLadders.Tests\Bayteq.SnakesAndLadders.Tests.csproj", "{9F3C7335-6148-430D-8138-35CC0D568676}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{730E2311-ABB3-488C-8127-4859F7FB78DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730E2311-ABB3-488C-8127-4859F7FB78DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730E2311-ABB3-488C-8127-4859F7FB78DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730E2311-ABB3-488C-8127-4859F7FB78DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C7C2C0-58EE-42A3-BC9C-504E3FABB190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C7C2C0-58EE-42A3-BC9C-504E3FABB190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C7C2C0-58EE-42A3-BC9C-504E3FABB190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C7C2C0-58EE-42A3-BC9C-504E3FABB190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E35456-0F79-4CDA-8AC3-02EBB8D3967F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E35456-0F79-4CDA-8AC3-02EBB8D3967F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E35456-0F79-4CDA-8AC3-02EBB8D3967F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E35456-0F79-4CDA-8AC3-02EBB8D3967F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{444D9799-E56E-4A4C-B750-232E596FBEEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{444D9799-E56E-4A4C-B750-232E596FBEEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{444D9799-E56E-4A4C-B750-232E596FBEEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{444D9799-E56E-4A4C-B750-232E596FBEEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F3C7335-6148-430D-8138-35CC0D568676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F3C7335-6148-430D-8138-35CC0D568676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F3C7335-6148-430D-8138-35CC0D568676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F3C7335-6148-430D-8138-35CC0D568676}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F3C7335-6148-430D-8138-35CC0D568676} = {BE9EE355-EDE9-4800-8642-8ED610116B8F}
+	EndGlobalSection
+EndGlobal
